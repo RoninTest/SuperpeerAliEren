@@ -152,9 +152,6 @@ public class BaseTest {
         JavascriptExecutor js=(JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,500);");
 
-
-
-
         WebElement superOtherVideo_1= driver.findElement(By.cssSelector("a[href*='/watch?v=oTOd11PEJtE']"));
         superOtherVideo_1.click();
 
